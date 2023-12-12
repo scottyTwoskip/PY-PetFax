@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2c68c; /* Light teal background */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #26a69a; 
+}
+
+label, textarea, input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #26a69a; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00796b; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

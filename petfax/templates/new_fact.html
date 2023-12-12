@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Submit a New Fact</title>
+</head>
+<body>
+    <h1>Submit a New Pet Fact</h1>
+    <form>
+        <label for="pet_name">Pet Name:</label>
+        <input type="text" id="pet_name" name="pet_name" placeholder="Enter pet's name">
+
+        <label for="fun_fact">Fun Fact:</label>
+        <textarea id="fun_fact" name="fun_fact" placeholder="Enter the fun fact"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
