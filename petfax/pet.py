@@ -20,3 +20,5 @@ def show(index):
 @bp.route('/facts/new')
 def new_fact():
     return render_template('new_fact.html')
+
+#git test
